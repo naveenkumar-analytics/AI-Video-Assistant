@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="AI Video Assistant banner" width="100%">
+  <a href="https://ai-video-assistant-d5a2u5rax5hcwycxzvmdcq.streamlit.app/"><img src="https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?logo=streamlit&logoColor=white" alt="Live Demo on Streamlit Community Cloud"></a><br>
+  <b>Live demo:</b> <a href="https://ai-video-assistant-d5a2u5rax5hcwycxzvmdcq.streamlit.app/">https://ai-video-assistant-d5a2u5rax5hcwycxzvmdcq.streamlit.app/</a>
 </p>
 
 <h1 align="center">AI Video Assistant</h1>
@@ -12,10 +13,6 @@
 ![Embeddings](https://img.shields.io/badge/Embeddings-all--MiniLM--L6--v2-FFD21E?logo=huggingface&logoColor=black) ![Whisper](https://img.shields.io/badge/STT-OpenAI%20Whisper-412991) ![Sarvam](https://img.shields.io/badge/STT-Sarvam%20AI-0A7E8C) ![FFmpeg](https://img.shields.io/badge/Audio-FFmpeg-007808?logo=ffmpeg&logoColor=white) ![Status](https://img.shields.io/badge/Status-Working%20prototype-blue)
 
 </div>
-
-<p align="center">
-  <a href="https://ai-video-assistant-d5a2u5rax5hcwycxzvmdcq.streamlit.app/"><img src="https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?logo=streamlit&logoColor=white" alt="Live Demo on Streamlit Community Cloud"></a>
-</p>
 
 **Contents:** [Overview](#overview) · [Problem](#problem-statement) · [Features](#key-features) · [Architecture](#system-architecture) · [RAG Pipeline](#rag-pipeline) · [RAG Concepts](#rag-technical-concepts) · [Tech Stack](#technology-stack) · [Structure](#project-directory-structure) · [How It Works](#how-it-works) · [Setup](#installation-and-setup) · [Env Vars](#environment-variables) · [Run](#how-to-run) · [Examples](#example-queries-and-output) · [Live Demo](#live-demo) · [Engineering](#technical-challenges-and-engineering-decisions) · [Evaluation](#rag-evaluation) · [Limitations](#current-limitations) · [Future Work](#future-improvements) · [Skills](#skills-demonstrated) · [Contributing](#contributing) · [License](#license)
 
@@ -189,7 +186,6 @@ sequenceDiagram
 ```text
 AI-Video-Assistant/
 ├── .streamlit/config.toml   # Dark theme, 500 MB upload limit
-├── assets/                  # README banner image
 ├── core/
 │   ├── extractor.py         # Action items, decisions, open questions
 │   ├── rag_engine.py        # LCEL RAG chain, grounded prompt, ask_question()
